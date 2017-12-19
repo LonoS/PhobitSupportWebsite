@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    padding-right: 2rem;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    align-items: center;
+    overflow: auto;
+}
+nav a, nav p.titan{
+    margin: 0;
+    padding: 1rem 4rem;
+    font-weight: 200;
+    color: white;
+    flex-grow: 1;
+    background-color: black;
+    text-align: center;
+    transition: 1s ease;
+    text-decoration: none;
+
+
+}
+nav p.titan{
+    font-weight: bolder;
+    align-self: flex-start;
+
+}
+
+nav a.menu:hover{
+    background-color: dimgray;
+    cursor: pointer;
+}
