@@ -11,6 +11,14 @@ html{
 html, body{
     font-family: "SF_Pro", sans-serif;
     font-size: medium;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header{
+    
 
 
 }
