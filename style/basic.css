@@ -1,0 +1,32 @@
+html{
+
+/*
+*
+* Put any additional standard things in here!
+*
+*/
+
+}
+
+html, body{
+    font-family: "SF_Pro", sans-serif;
+    font-size: medium;
+
+
+}
+
+@font-face {
+    font-family: SF_Pro;
+    src: url(../fonts/font-awesome-4.7.0/SF_Pro.otf);
+
+    font-family: SF_Pro_Bold;
+    src: url(../fonts/font-awesome-4.7.0/SF_Pro_Bold.otf);
+
+    font-family: SF_Pro_Light;
+    src: url(../fonts/font-awesome-4.7.0/SF_Pro_Light.otf);
+
+    font-family: SF_Pro_Thin;
+    src: url(../fonts/font-awesome-4.7.0/SF_Pro_Thin.otf);
+
+
+}
