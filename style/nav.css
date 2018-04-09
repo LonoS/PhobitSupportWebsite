@@ -36,7 +36,7 @@ nav a.menu:hover{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1200px){
     nav{
         flex-direction: column;
         justify-content: center;

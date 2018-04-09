@@ -90,13 +90,10 @@ footer p{
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1200px){
     .iPhone-img img{
-        max-width: 90%;
-        flex-grow: 1;
-        margin: 0;
-        padding: 0;
-
+        max-width: 195px;
+        height: 341px;
     }
     nav{
         flex-direction: column;
