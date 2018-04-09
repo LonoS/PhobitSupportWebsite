@@ -74,6 +74,8 @@ html, body{
 .iPhone-img img{
     justify-content: center;
 }
+
+/*
 footer{
     padding: 5rem 0rem;
     background-color: black;
@@ -89,6 +91,7 @@ footer p{
     text-align: center;
 
 }
+*/
 
 @media screen and (max-width: 1200px){
     .iPhone-img img{

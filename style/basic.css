@@ -28,6 +28,23 @@ html, body{
 
 }
 
+footer{
+    padding: 5rem 0rem;
+    background-color: black;
+}
+footer p{
+    background-color: black;
+    color: white;
+    font-weight: 200;
+
+
+    margin: 0;
+
+    text-align: center;
+
+}
+
+
 @font-face {
     font-family: SF_Pro;
     src: url(../fonts/font-awesome-4.7.0/SF_Pro.otf);
@@ -40,6 +57,4 @@ html, body{
 
     font-family: SF_Pro_Thin;
     src: url(../fonts/font-awesome-4.7.0/SF_Pro_Thin.otf);
-
-
 }

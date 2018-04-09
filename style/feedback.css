@@ -1,0 +1,96 @@
+.descriptionFeedback p {
+    font-size: large;
+    text-align: center;
+    padding: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.bedingungen {
+    font-size: small;
+    text-align: center;
+    padding: 0;
+    margin: 0.5rem;
+    font-weight: 300;
+}
+
+
+
+
+inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.inputSmall {
+    font-size: medium;
+    margin: 1rem;
+    padding: 0.4rem;
+
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 70%;
+}
+
+.inputBig {
+
+    font-family: "SF_Pro", sans-serif;
+    font-size: medium;
+
+    text-align: left;
+    resize: none;
+
+    font-size: medium;
+    alignment: center;
+
+    margin: 1rem;
+    padding: 0.4rem;
+
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 70%;
+    height: 10rem;
+}
+
+.submitButton {
+    text-align: center;
+    font-size: large;
+    background-color: black;
+    color: white;
+    width: 30%;
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    transition: 1s ease;
+}
+
+.submitButton:hover {
+    background-color: dimgray;
+    cursor: pointer;
+}
+
+.submitButton:active {
+    transition: none;
+    background-color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .submitButton {
+        font-size: small;
+    }
+
+    .inputBig {
+        height: 20rem;
+    }
+}
