@@ -2,8 +2,9 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: "SF Pro Display", sans-serif;
-
+    background-color: #f1f1f1;
 }
+
 
 
 .header{
@@ -11,9 +12,16 @@ html, body{
     font-size: 4rem;
     font-weight: 900;
     text-align: center;
-    padding: 0rem 2rem;
+    padding: 0rem 0rem;
 
 
+}
+
+.header img{
+    align-self: center;
+    width: 360px;
+    height: 360px;
+    padding-top: 2.5rem;
 }
 
 
@@ -82,10 +90,13 @@ footer p{
 
 }
 
-@media screen and (max-width: 70em){
-    img{
-        width: 80%;
-        height: auto;
+@media screen and (max-width: 600px){
+    .iPhone-img img{
+        max-width: 90%;
+        flex-grow: 1;
+        margin: 0;
+        padding: 0;
+
     }
     nav{
         flex-direction: column;

@@ -34,3 +34,27 @@ nav a.menu:hover{
     cursor: pointer;
 
 }
+
+
+@media screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    p.titan{
+        font-size: 0;
+        width: 100%;
+        padding: 0rem;
+        margin: 0;
+    }
+    nav a{
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 0.75rem;
+        margin: 0;
+    }
+}
+
+
+
+
