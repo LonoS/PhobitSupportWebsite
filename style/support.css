@@ -1,0 +1,64 @@
+.headerTwo{
+
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0rem 0.5rem;
+
+
+}
+.headerTwo input[type=text] {
+    float: inherit;
+    padding: 5px 5px 5px 10px;
+    border: black;
+    margin:5px 2.5px;
+    font-size: large;
+    border-color: black;
+    border-style: inset;
+
+
+}
+
+section{
+    background-color: white;
+    align-self: center;
+    padding: 0.5rem;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+    width: 99%;
+    margin: 0.5rem;
+}
+
+section .sectionTitle{
+    margin-bottom: 0.25rem;
+    font-size: 1.5rem;
+}
+
+section .sectionDescription{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+section .sectionPicture{
+
+}
+
+.question{
+
+}
+
+.question .questionTitle{
+
+}
+
+.question .questionDescription{
+
+}
+
+.themes{
+
+    display: flex;
+    flex-direction: row;
+}
+
