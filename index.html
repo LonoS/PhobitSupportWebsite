@@ -6,22 +6,27 @@
     <link rel="stylesheet" href="style/basic.css">
     <link rel="stylesheet" href="fonts/css/font-awesome.css">
     <link rel="stylesheet" href="style/home.css">
-    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/newNav.css">
+    <script src="js/sticky.js" defer="defer"></script>
 
 
 </head>
 <body>
 
 
-    <nav class="main-menu">
-        <p class="titan">Projekt Titan.</p>
-        <a class="menu">Start</a>
-        <a href="sites/news.html" class="menu">News</a>
-        <a class="menu">Support</a>
-        <a href="sites/feedback.html" class="menu">Feedback</a>
-        <a href="sites/UeberUns.html" class="menu">Über uns</a>
-
-    </nav>
+<nav class="main-navigation" id="navbar">
+    <ul class="menu">
+        <li><a href="#">Start</a></li>
+        <li><a href="sites/news.html">News</a></li>
+        <li class="menu-item-has-children"><a href="#">Support</a>
+            <ul class="sub-menu">
+                <li><a href="#">Q&A</a></li>
+            </ul>
+        </li>
+        <li><a href="sites/UeberUns.html">Über uns</a></li>
+        <li><a href="sites/feedback.html">Feedback</a></li>
+    </ul>
+</nav>
 
     <main>
         <div class="header">
@@ -89,6 +94,26 @@
         <p>Impressum</p>
         <p>made by lorem Ipsum Inc in lorem ipsum, for lorem ipsum.</p>
     </footer>
+
+
+
+<!--<script>-->
+    <!--window.onscroll = function() {myFunction()};-->
+
+    <!--var navbar = document.getElementById("navbar");-->
+    <!--var sticky = navbar.offsetTop;-->
+
+    <!--function myFunction() {-->
+        <!--if (window.pageYOffset >= sticky) {-->
+            <!--navbar.classList.add("sticky")-->
+        <!--} else {-->
+            <!--navbar.classList.remove("sticky");-->
+        <!--}-->
+    <!--}-->
+<!--</script>-->
+
+
+
 
 </body>
 </html>
