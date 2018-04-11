@@ -1,3 +1,9 @@
+body{
+    background-color: #f1f1f1;
+}
+p{
+    text-align: center;
+}
 .headerTwo{
 
     margin: 0;
@@ -26,11 +32,14 @@ section{
     padding: 0.5rem;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.3);
     flex-grow: 1;
-    width: 99%;
-    margin: 0.5rem;
+
+    margin: 20px;
+    margin-right: 5px;
+
 }
 
 section .sectionTitle{
+    text-align: center;
     margin-bottom: 0.25rem;
     font-size: 1.5rem;
 }
@@ -38,27 +47,69 @@ section .sectionTitle{
 section .sectionDescription{
     font-weight: 300;
     font-size: 1rem;
-}
-
-section .sectionPicture{
+    margin-left: auto;
 
 }
 
 .question{
-
+    background-color: rgba(176,209,218,0.92);
+    padding: 1%;
+    margin: 0%  10% 1% 2%;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
-.question .questionTitle{
-
+.question .title{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: left;
 }
 
-.question .questionDescription{
+.question .answer{
+    text-align: left;
+    color: #1b1b1b;
 
 }
 
 .themes{
-
+    text-align: center;
     display: flex;
     flex-direction: row;
 }
 
+.themes img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.themes img:hover{
+    cursor: pointer;
+}
+
+section .hotlineDescription{
+    display: flex;
+    flex-direction: row;
+}
+
+section .hotlineDescription p{
+    margin: auto;
+    background-color: #e3e3e3;
+    padding: 15px 10%;
+    transition: 1s ease;
+}
+
+section .hotlineDescription p:hover{
+    background-color: dimgray;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    section .hotlineDescription{
+        display: block;
+    }
+    section{
+        margin: 2%;
+    }
+    .question{
+        margin: 0%  2% 1% 2%;
+    }
+}
