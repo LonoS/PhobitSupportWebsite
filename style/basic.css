@@ -28,9 +28,14 @@ html, body{
 
 }
 
+
+
 footer{
     padding: 5rem 0rem;
     background-color: black;
+
+
+
 }
 footer p{
     background-color: black;
@@ -42,6 +47,10 @@ footer p{
 
     text-align: center;
 
+}
+
+footer a {
+    color: white;
 }
 
 

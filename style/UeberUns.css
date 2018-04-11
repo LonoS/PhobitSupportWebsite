@@ -1,6 +1,8 @@
 profiles {
     display: flex;
     flex-direction: column;
+    max-width: 80rem;
+    margin: auto;
 }
 
 profile {
@@ -64,17 +66,16 @@ img {
     font-size: large;
     text-align: center;
     padding: 0;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-bottom: 3rem;
+    margin: auto;
+    max-width: 70rem;
 }
 
 .headline {
     font-size: xx-large;
     font-weight: bold;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-bottom: 2rem;
+    padding: 3rem;
+    text-align: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 600px){
