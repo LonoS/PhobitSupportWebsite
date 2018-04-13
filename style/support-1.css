@@ -33,8 +33,9 @@ section{
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.3);
     flex-grow: 1;
 
-    margin: 20px;
-    margin-right: 5px;
+    margin: 2%;
+    margin-right: 1.5%;
+
 
 }
 
@@ -52,15 +53,10 @@ section .sectionDescription{
 }
 
 .question{
-    background-color: rgba(241, 241, 241, 0.89);
+    background-color: rgba(176,209,218,0.92);
     padding: 1%;
     margin: 0%  10% 1% 2%;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.3);
-}
-
-.question:hover{
-    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.5);
-    transition: 1s ease;
 }
 
 .question .title{
@@ -103,7 +99,7 @@ section .hotlineDescription p{
 }
 
 section .hotlineDescription p:hover{
-    background-color: dimgray;
+    background-color: #b2b2b2;
     cursor: pointer;
 }
 
