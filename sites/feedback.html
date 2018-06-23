@@ -5,7 +5,6 @@
     <title>Projekt Titan - Feedback</title>
     <link rel="stylesheet" href="../style/basic.css">
     <link rel="stylesheet" href="../style/newNav.css">
-
     <link rel="stylesheet" href="../style/feedback.css">
 </head>
 <body>
@@ -14,12 +13,10 @@
     <ul class="menu">
         <li><a href="../../../HTML_Files/projekte.html">Zurück</a></li>
         <li><a href="../index.html">Start</a></li>
-        <li><a href="news.php">News</a></li>
-        <li class="menu-item-has-children"><a href="support.html">Support</a>
+        <li><a href="news.html">News</a></li>
+        <li class="menu-item-has-children"><a href="#">Support</a>
             <ul class="sub-menu">
-                <li><a href="support.html#Navigation">Themen</a></li>
-                <li><a href="support.html#Q&A">Q&A</a></li>
-                <li><a href="support.html#Hotline">Hotline</a></li>
+                <li><a href="#">Q&A</a></li>
 
             </ul>
         </li>
@@ -39,21 +36,21 @@
         </div>
 
 
-    <inputForm>
-        <input class="inputSmall" type="email" placeholder="E-Mail Adresse">
-        <input class="inputSmall" type="text" placeholder="Betreff">
-        <textarea class="inputBig" type="text" placeholder="Deine Nachricht..."></textarea>
+    <form action="getfeedback.php" method="post">
+        <input class="inputSmall" type="email" placeholder="E-Mail Adresse" name="email">
+        <input class="inputSmall" type="text" placeholder="Betreff" name="betreff">
+        <textarea class="inputBig" type="text" placeholder="Deine Nachricht..." name="text"></textarea>
         <button class="submitButton" type="submit">Abschicken</button>
-    </inputForm>
+    </form>
 
     <p class="bedingungen">Alle Felder sind Pflichtfelder.</p>
 
     </main>
 
-<footer>
-    <p><a href="impressum.html">Impressum</a></p>
-    <p>made by LAB73 in Österreich</p>
-</footer>
+    <footer>
+        <p>Impressum</p>
+        <p>made by lorem Ipsum Inc in lorem ipsum, for lorem ipsum.</p>
+    </footer>
 
 </body>
 </html>
