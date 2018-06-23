@@ -9,6 +9,9 @@
     max-width: 60rem;
 }
 
+html{
+    background-color: #f1f1f1;
+}
 .bedingungen {
     font-size: small;
     text-align: center;
@@ -34,10 +37,11 @@ form {
     margin: 1rem;
     padding: 0.4rem;
 
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
+    /*border-color: black;*/
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
     width: 70%;
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
 }
 
 .inputBig {
@@ -54,11 +58,23 @@ form {
     margin: 1rem;
     padding: 0.4rem;
 
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
+    /*border-color: black;*/
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+
     width: 70%;
     height: 10rem;
+}
+
+.inputBig:hover{
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.7);
+    transition: 0.4s ease;
+
+}
+.inputSmall:hover{
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.7);
+    transition: 0.4s ease;
 }
 
 .submitButton {

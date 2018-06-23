@@ -10,7 +10,10 @@ profile {
     margin: 2rem;
     display: flex;
     flex-direction: column;
-
+    background-color: white;
+}
+html{
+    background-color: #f1f1f1;
 }
 
 profileItem {

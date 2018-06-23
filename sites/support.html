@@ -3,67 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <title>Projekt Titan: Support</title>
-    <link rel="stylesheet" href="../style/basic.css">
-    <link rel="stylesheet" href="../style/nav.css">
     <link rel="stylesheet" href="../style/support.css">
+    <link rel="stylesheet" href="../style/basic.css">
+    <link rel="stylesheet" href="../style/newNav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body>
 
 
-<nav class="main-menu">
-    <p class="titan">Projekt Titan.</p>
-    <a href="../index.html"; class="menu">Start</a>
-    <a href="news.html" class="menu">News</a>
-    <a class="menu">Support</a>
-    <a class="menu">Feedback</a>
-    <a class="menu">Pro Version</a>
+<nav class="main-navigation" id="navbar">
+    <ul class="menu">
+        <li><a href="../../../HTML_Files/projekte.html">Zurück</a></li>
+        <li><a href="../index.html">Start</a></li>
+        <li><a href="news.php">News</a></li>
+        <li class="menu-item-has-children"><a href="#">Support</a>
+            <ul class="sub-menu">
+                <li><a href="support.html#Navigation">Themen</a></li>
+                <li><a href="support.html#Q&A">Q&A</a></li>
+                <li><a href="support.html#Hotline">Hotline</a></li>
+            </ul>
+        </li>
+        <li><a href="ueberUns.html">Über uns</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
 </nav>
 <main>
     <div class="header">
-        <p>Any Questions?</p>
+        <p style="margin-bottom: 3%">Gibt's Fragen?</p>
     </div>
-    <div class="headerTwo">
+    <div class="headerTwo" id="Search">
 
-        <input type="text" placeholder="We like to help you!">
+        <input type="text" placeholder="Wir helfen gerne weiter!">
 
     </div>
 
-    <section>
+    <section id="Navigation">
 
         <p class="sectionTitle">Wo kommen Sie nicht weiter?</p>
         <div class="themes">
-            <img src="../img/homepage_productdrawer_apple_pay_icon_2x.png" width="12.5%" height="12.5%" style="margin-right: 6.25%; margin-left: 6.25%">
-            <img src="../img/homepage_productnav_apple_watch_2x.png" width="12.5%" height="12.5%" style="margin-right: 12.5%">
-            <img src="../img/homepage_productnav_iphone_2x.png" width="12.5%" height="12.5%" style="margin-right: 12.5%">
-            <img src="../img/homepage_productnav_imac_2x.png" width="12.5%" height="12.5%" style="margin-right: 6.25%">
+            <img src="../img/homepage_productdrawer_apple_pay_icon_2x.png">
+            <img src="../img/homepage_productnav_apple_watch_2x.png">
+            <img src="../img/homepage_productnav_iphone_2x.png">
+            <img src="../img/homepage_productnav_imac_2x.png">
         </div>
 
 
 
     </section>
 
-    <section>
+    <section id="Q&A">
 
         <p class="sectionTitle">Fragen und Antworten</p>
         <p class="sectionDescription">
             Vielleicht weiß unsere Community noch mehr!
         </p>
+        <div class="question">
+            <p class="title">Wie komme ich zurück?</p>
+            <p class="answer">
+                Am besten gehst du auf den oberen Button wählst etwas aus und begibst dich dann wieder in den Start-Screen!
+                Versuche das ein paar mal und es wird funktionieren. Wenn nicht würde ich mich an den Support wenden.
+            </p>
+        </div>
+        <div class="question">
+            <p class="title">Was mach ich jetzt?</p>
+            <p class="answer">
+                Am besten gehst du auf den oberen Button wählst etwas aus und begibst dich dann wieder in den Start-Screen!
+                Versuche das ein paar mal und es wird funktionieren. Wenn nicht würde ich mich an den Support wenden.
+            </p>
+        </div>
+        <div class="question">
+            <p class="title">Oh je ich glaube ich habe mich verklickt!</p>
+            <p class="answer">
+                Am besten gehst du auf den oberen Button wählst etwas aus und begibst dich dann wieder in den Start-Screen!
+                Versuche das ein paar mal und es wird funktionieren. Wenn nicht würde ich mich an den Support wenden.
+            </p>
+        </div>
 
     </section>
 
-    <section>
+    <section id="Hotline">
 
         <p class="sectionTitle">Unsere Hotline</p>
         <p class="sectionDescription">
             Konnten Sie auf unserer Website nichts passendes Finden?
             Kein Problem! Unser Support ist gerne für Sie da.
         </p>
-        <div class="themes sectionDescription ">
+        <div class="hotlineDescription">
 
-            <p>Online Formular ausfüllen</p>
-            <p>Email schreiben</p>
-            <p>Ruf uns an</p>
+            <p> <i class="fa fa-cloud"></i> Online Formular ausfüllen <i class="fa fa-cloud"></i> </p>
+            <p> <i class="fa fa-address-card"></i> Email schreiben <i class="fa fa-address-card"></i></p>
+            <p> <i class="fa fa-phone"></i> Ruf uns an <i class="fa fa-phone"></i></p>
 
         </div>
     </section>
@@ -71,5 +102,9 @@
 
 
 </main>
+<footer>
+    <p><a href="impressum.html">Impressum</a></p>
+    <p>made by LAB73 in Österreich</p>
+</footer>
 </body>
 </html>
