@@ -36,12 +36,12 @@
         </div>
 
 
-    <inputForm>
-        <input class="inputSmall" type="email" placeholder="E-Mail Adresse">
-        <input class="inputSmall" type="text" placeholder="Betreff">
-        <textarea class="inputBig" type="text" placeholder="Deine Nachricht..."></textarea>
+    <form action="getfeedback.php" method="post">
+        <input class="inputSmall" type="email" placeholder="E-Mail Adresse" name="email">
+        <input class="inputSmall" type="text" placeholder="Betreff" name="betreff">
+        <textarea class="inputBig" type="text" placeholder="Deine Nachricht..." name="text"></textarea>
         <button class="submitButton" type="submit">Abschicken</button>
-    </inputForm>
+    </form>
 
     <p class="bedingungen">Alle Felder sind Pflichtfelder.</p>
 
